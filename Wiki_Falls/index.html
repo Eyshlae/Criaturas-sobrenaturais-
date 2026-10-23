@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki Falls — Criaturas</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="cabecalho">
+    <a class="logo" href="#inicio">
+        <img src="imagens/logo-gravity-falls.png" alt="Gravity Falls">
+    </a>
+
+    
+  <div class="campo-busca">
+      <span class="lupa" aria-hidden="true"></span>
+      <input type="search" id="busca" placeholder="Pesquisar..." aria-label="Buscar criatura">
+  </div>
+
+</header>
+
+  <section class="apresentacao" id="inicio">
+    <p class="subtitulo">Gravity Falls · Arquivos sobrenaturais</p>
+    <h1>Criaturas sobrenaturais</h1>
+    <p>Conheça as entidades, os demônios e as criaturas estranhas de Gravity Falls.</p>
+  </section>
+
+  <main>
+    <nav class="filtros" aria-label="Filtrar criaturas">
+      <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+      <button type="button" data-filtro="entidade" aria-pressed="false">Entidades</button>
+      <button type="button" data-filtro="criatura" aria-pressed="false">Criaturas</button>
+      <button type="button" data-filtro="demonio" aria-pressed="false">Demônios</button>
+    </nav>
+
+    <section class="lista" id="lista">
+      <article class="card" data-tipo="entidade" data-nome="o bebê do tempo time baby">
+        <div class="imagem">
+          <img src="imagens/bebe-do-tempo.png" alt="O Bebê do Tempo" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>O Bebê do Tempo</h2>
+          <p class="nome-alternativo">Time Baby</p>
+          <p>Um governante gigante do tempo que comanda a Polícia do Tempo e dispara lasers pelos olhos.</p>
+          <p class="episodio"><strong>Episódio:</strong> A Invocação (S01E09) / O Jogo do Blendin (S02E08)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="entidade" data-nome="probabilitor, o pitagórico ">
+        <div class="imagem">
+          <img src="imagens/probabilitor.png" alt="Probabilitor, o Pitagórico" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>Probabilitor, o Pitagórico</h2>
+          
+          <p>Um mago interdimensional da matemática que ganha vida e poder por meio dos dados de um jogo de RPG.</p>
+          <p class="episodio"><strong>Episódio:</strong> Masmorras, Masmorras e Mais Masmorras (S02E13)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="entidade" data-nome="GIFfany">
+        <div class="imagem">
+          <img src="imagens/GIFfany.png" alt="GIFfanya" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>GIFfany</h2>
+          <p>Uma entidade digital consciente de um jogo de namoro que consegue se locomover pela rede elétrica e possuir objetos eletrônicos.</p>
+          <p class="episodio"><strong>Episódio:</strong>Soos e a Garota Real (S02E05)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="entidade" data-nome="o fantasma lenhador archibald corduroy">
+        <div class="imagem">
+          <img src="imagens/fantasma-lenhador.png" alt="O Fantasma Lenhador" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>O Fantasma Lenhador</h2>
+          <p class="nome-alternativo">Archibald Corduroy</p>
+          <p>Um espírito poderoso que altera a realidade da mansão, provoca incêndios e transforma pessoas em madeira.</p>
+          <p class="episodio"><strong>Episódio:</strong> O Mistério da Mansão Northwest (S02E10)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="entidade" data-nome="MonstroSummerween">
+        <div class="imagem">
+          <img src="imagens/Summerween.png" alt="MonstroSummerween" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>Monstro do Summerween</h2>
+          <p class="nome-alternativo">Summerween Trickster</p>
+          <p>Uma entidade mágica e assustadora composta por doces rejeitados que pune crianças sem espírito festivo.</p>
+          <p class="episodio"><strong>Episódio:</strong> Summerween (S01E12)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="entidade" data-nome="Lilliputtians">
+        <div class="imagem">
+          <img src="imagens/Lilliputtians.png" alt="Lilliputtians" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria entidade">Entidade</span>
+          <h2>Lilliputtians</h2>
+          <p class="nome-alternativo">Os Seres do Golfe / Caddies de Minigolfe</p>
+          <p>As pequenas entidades/povos mágicos que vivem dentro de cada buraco de minigolfe e controlam as bolas para garantir as jogadas.</p>
+          <p class="episodio"><strong>Episódio:</strong> A Guerra do Golfe (S02E03)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="bill cipher o demônio da mente">
+        <div class="imagem">
+          <img src="imagens/bill-cipher.png" alt="Bill Cipher" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>Bill Cipher</h2>
+          <p class="nome-alternativo">O demônio da mente</p>
+          <p>Um ser triangular caótico que invade sonhos, manipula mentes e tenta trazer o Estranhedon.</p>
+          <p class="episodio"><strong>Episódio:</strong> Várias aparições; estreia em Aproveite a Viagem (S01E19)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="morcego-olho eye-bat">
+        <div class="imagem">
+          <img src="imagens/morcego-olho.png" alt="Morcego-Olho" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>Morcego-Olho</h2>
+          <p class="nome-alternativo">Eye-Bat</p>
+          <p>Um demônio voador com um enorme olho e asas de morcego, capaz de petrificar pessoas.</p>
+          <p class="episodio"><strong>Episódio:</strong> Trilogia Estranhedon (S02E18–S02E20)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="Zanthar">
+        <div class="imagem">
+          <img src="imagens/Zanthar.png" alt="Zanthar" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>Zanthar</h2>
+          <p class="nome-alternativo">O Destruidor</p>
+          <p>O demônio colossal em formato de gorila de pedra/folhagem com chifres que espalha destruição por onde passa.</p>
+          <p class="episodio"><strong>Episódio:</strong> Trilogia Estranhedon (S02E18–S02E20)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="pyronica ">
+        <div class="imagem">
+          <img src="imagens/pyronica.png" alt="Pyronica" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>Pyronica</h2>
+          
+          <p>Uma demônia formada por fogo rosa-choque, integrante do grupo de Bill Cipher.</p>
+          <p class="episodio"><strong>Episódio:</strong> Trilogia Estranhedon (S02E18–S02E20)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="kryptos ">
+        <div class="imagem">
+          <img src="imagens/kryptos.png" alt="Kryptos" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>Kryptos</h2>
+          
+          <p>Um demônio geométrico verde com formato semelhante a uma bússola.</p>
+          <p class="episodio"><strong>Episódio:</strong> Trilogia Estranhedon (S02E18–S02E20)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="demonio" data-nome="8-ball o demônio da bola oito">
+        <div class="imagem">
+          <img src="imagens/8-ball.png" alt="8-Ball" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria demonio">Demônio</span>
+          <h2>8-Ball</h2>
+          <p class="nome-alternativo">O demônio da bola oito</p>
+          <p>Um demônio gigante reconhecido pelas bolas de sinuca número oito no lugar dos olhos.</p>
+          <p class="episodio"><strong>Episódio:</strong> Trilogia Estranhedon (S02E18–S02E20)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="mermando o sereio / tritão">
+        <div class="imagem">
+          <img src="imagens/mermando.png" alt="Mermando" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>Mermando</h2>
+          <p class="nome-alternativo">O sereio / tritão</p>
+          <p>Um tritão encontrado preso na piscina pública de Gravity Falls, longe do mar.</p>
+          <p class="episodio"><strong>Episódio:</strong> A Piscina Pública (S01E15)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="O Gremloblin">
+        <div class="imagem">
+          <img src="imagens/Gremloblin.png" alt="O Gremloblin" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>O Gremloblin</h2>
+          <p>O monstro híbrido perigoso que projeta o maior pesadelo do alvo através do olhar.</p>
+          <p class="episodio"><strong>Episódio:</strong> O Lado Ruim do Stan (S01E18).</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="Os Homentauros">
+        <div class="imagem">
+          <img src="imagens/Homentauros.png" alt="Os Homentauros" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>Os Homentauros</h2>
+          <p class="nome-alternativo">Manotaurs</p>
+          <p>As criaturas metade homem, metade touro obcecadas por virilidade e testes de masculinidade na floresta.</p>
+          <p class="episodio"><strong>Episódio:</strong> Dipper Homem (S01E06).</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="celestabellebethabelle a unicórnio">
+        <div class="imagem">
+          <img src="imagens/celestabellebethabelle.png" alt="Celestabellebethabelle" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>Celestabellebethabelle</h2>
+          <p class="nome-alternativo">A unicórnio</p>
+          <p>Uma unicórnio vaidosa e falsa que vive na floresta mágica.</p>
+          <p class="episodio"><strong>Episódio:</strong> A Sorte dos Pines (S02E15)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="o multi-urso multi-bear">
+        <div class="imagem">
+          <img src="imagens/multi-urso.png" alt="O Multi-Urso" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>O Multi-Urso</h2>
+          <p class="nome-alternativo">Multi-Bear</p>
+          <p>Um urso gigante de oito cabeças que gosta da música “Disco Girl”.</p>
+          <p class="episodio"><strong>Episódio:</strong> Dipper Homem (S01E06)</p>
+        </div>
+      </article>
+      <article class="card" data-tipo="criatura" data-nome="os gnomos habitantes da floresta">
+        <div class="imagem">
+          <img src="imagens/gnomos.png" alt="Os Gnomos" loading="lazy">
+        </div>
+        <div class="conteudo">
+          <span class="categoria criatura">Criatura</span>
+          <h2>Os Gnomos</h2>
+          <p class="nome-alternativo">Habitantes da floresta</p>
+          <p>Homenzinhos de chapéu vermelho que vomitam arco-íris e tentaram se casar com Mabel.</p>
+          <p class="episodio"><strong>Episódio:</strong> Armadilha para Turistas (S01E01)</p>
+        </div>
+      </article>
+      <p id="vazio" class="vazio" hidden>Nenhuma criatura encontrada.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Wiki Falls</strong> · Projeto acadêmico de IHC, feito por fãs.</p>
+    <p>Gravity Falls é uma criação de Alex Hirsch.</p>
+  </footer>
+
+  <script>
+    const cards = [...document.querySelectorAll(".card")];
+    const botoes = [...document.querySelectorAll("[data-filtro]")];
+    const busca = document.getElementById("busca");
+    const vazio = document.getElementById("vazio");
+    let filtroAtual = "todas";
+
+    function filtrar() {
+      const termo = busca.value.trim().toLocaleLowerCase("pt-BR");
+      let quantidade = 0;
+
+      cards.forEach(card => {
+        const categoriaOk = filtroAtual === "todas" || card.dataset.tipo === filtroAtual;
+        const texto = (card.dataset.nome + " " + card.innerText).toLocaleLowerCase("pt-BR");
+        const mostrar = categoriaOk && texto.includes(termo);
+        card.hidden = !mostrar;
+        if (mostrar) quantidade++;
+      });
+
+      vazio.hidden = quantidade > 0;
+    }
+
+    botoes.forEach(botao => {
+      botao.addEventListener("click", () => {
+        filtroAtual = botao.dataset.filtro;
+        botoes.forEach(item => item.setAttribute("aria-pressed", String(item === botao)));
+        filtrar();
+      });
+    });
+
+    busca.addEventListener("input", filtrar);
+  </script>
+</body>
+</html>
